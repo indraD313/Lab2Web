@@ -19,16 +19,16 @@ Proyek praktikum HTML lanjutan yang berisi tabel mahasiswa, form registrasi, sem
 ## Dokumentasi Screenshot
 
 ### 1. Tabel Data Mahasiswa
-![Tabel Data Mahasiswa](screenshots/01-tabel-data-mahasiswa.png)
+![Tabel Data Mahasiswa](Screenshots/01-tabel-data-mahasiswa.png)
 
 ### 2. Tabel Nilai Mahasiswa
-![Tabel Nilai Mahasiswa](screenshots/02-tabel-nilai-mahasiswa.png)
+![Tabel Nilai Mahasiswa](Screenshots/02-tabel-nilai-mahasiswa.png)
 
 ### 3. Banner dan Tabel
-![Banner dan Tabel](screenshots/03-banner-dan-tabel.png)
+![Banner dan Tabel](Screenshots/03-banner-dan-tabel.png)
 
 ### 4. Form Registrasi
-![Form Registrasi](screenshots/04-form-registrasi.png)
+![Form Registrasi](Screenshots/04-form-registrasi.png)
 
 ## Materi yang Dipraktikkan
 
@@ -37,5 +37,3 @@ Proyek praktikum HTML lanjutan yang berisi tabel mahasiswa, form registrasi, sem
 - Semantic HTML menggunakan `header`, `nav`, `main`, `section`, `aside`, dan `footer`.
 - Validasi dasar menggunakan `required`, `minlength`, `min`, `max`, dan tipe input seperti `email`, `date`, serta `number`.
 - Multimedia menggunakan elemen `video`.
-
-> Catatan: form ini merupakan latihan HTML. Data belum disimpan ke database atau dikirim ke server.
