@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  
+  <head>
+    <title>Biodata Mahasiswa</title>
+  </head>
+  
+  <body>
+    <style>
+    th {
+      width: 200px;
+    }
+    .no {
+      text-align: center;
+    }
+  </style>
+  <div style="background-image: url(Media/Banner.gif); background-size: cover; background-position: center; padding: 100px; text-align: center;" id="banner">
+  </div>
+    <header>
+      <h1>Biodata Mahasiswa</h1>
+    </header>
+    
+    <main>
+      <section id="biodata">
+        <h2>Data Mahasiswa</h2>
+        <table border="1">
+          <caption>
+            Tabel Data Mahasiswa
+          </caption>
+          <thead>
+            <tr>
+              <th id="1">NIM</th>
+              <th id="1">Nama</th>
+              <th id="1">Program Studi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>31241001</td>
+              <td>Andi</td>
+              <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+              <td>31241002</td>
+              <td>Budi</td>
+              <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+              <td>312510495</td>
+              <td>Indra</td>
+              <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+              <td>312510123</td>
+              <td>Tegar</td>
+              <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+              <td>312510495</td>
+              <td>John Doe</td>
+              <td>Teknik Informatika</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+        <table border="1">
+          <caption>
+            Nilai Mahasiswa
+          </caption>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama</th>
+              <th>Nilai</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="no">1</td>
+              <td>Andi</td>
+              <td>85</td>
+            </tr>
+            <tr>
+              <td class="no">2</td>
+              <td>Budi</td>
+              <td>90</td>
+            </tr>
+            <tr>
+              <td class="no">3</td>
+              <td>Indra</td>
+              <td>75</td>
+            </tr>
+            <tr>
+              <td class="no">4</td>
+              <td>Tegar</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td class="no">5</td>
+              <td>John Doe</td>
+              <td>95</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Rata-rata</td>
+              <td>85</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <aside>
+        <h2>Informasi</h2>
+        <p>
+          Selamat datang di halaman biodata mahasiswa. Di sini Anda dapat
+          melihat data mahasiswa dan nilai mereka.
+        </p>
+      </aside>
+    </main>
+    <hr>
+    <section id="form">
+      <h2 style="text-align: center;">Form Registrasi Mahasiswa</h2>
+      <form>
+        <label for="nama">Nama Lengkap</label><br />
+        <input type="text" id="nama" name="nama" /><br /><br />
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="password">Password</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+        <label for="tanggal">Tanggal Lahir</label><br />
+        <input type="date" id="tanggal" name="tanggal" /><br /><br />
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+      </form>
+      <h2>Jenis Kelamin</h2>
+      <input type="radio" id="laki" name="jk" value="L" />
+      <label for="laki">Laki-laki</label>
+      <input type="radio" id="perempuan" name="jk" value="P" />
+      <label for="perempuan">Perempuan</label>
+      <h2>Keahlian</h2>
+      <input type="checkbox" id="html" name="skill" value="HTML" />
+      <label for="html">HTML</label>
+      <input type="checkbox" id="css" name="skill" value="CSS" />
+      <label for="css">CSS</label>
+      <input type="checkbox" id="js" name="skill" value="JavaScript" />
+      <label for="js">JavaScript</label>
+      <label for="prodi">Program Studi</label>
+      <select id="prodi" name="prodi">
+        <option value="">-- Pilih Prodi --</option>
+        <option value="ti">Teknik Informatika</option>
+        <option value="si">Sistem Informasi</option>
+      </select>
+      <br /><br />
+      <label for="alamat">Alamat</label><br />
+      <textarea id="alamat" name="alamat" rows="5" cols="40"></textarea>
+      <form>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" required minlength="3" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="umur">Umur</label>
+        <input type="number" id="umur" name="umur" min="17" max="60" required />
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2026 Teknik Informatika</p>
+    </footer>
+  </body>
+</html>
